@@ -1,5 +1,23 @@
 <!--index.wxml-->
 <view class="container">
+  <view class="head">
+    <image src="../../image/logo.png" class=""/>
+    <text>博诗产品查询验证系统</text>
+  </view>
+  <view class="menu">
+    <!--<view class="list">
+      <image src="../../image/nav_box.png"></image>
+      <text>产品品质证明书</text>
+    </view>-->
+    <view class="list" bindtap="handleTabClick" data-type="SCAN">
+      <image src="../../image/nav_box.png"></image>
+      <text>扫码查验</text>
+    </view>
+    <view class="list" bindtap="handleTabClick" data-type="LIST">
+      <image src="../../image/nav_list.png"></image>
+      <text>产品信息</text>
+    </view>
+  </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
       <text class="user-motto">{{code}}</text>

@@ -3,8 +3,57 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color:#F7F7F7;
 }
+.head{
+  margin:50rpx auto 0;
+}
+.head image{
+  width:186rpx;
+  display:block;
+  text-align:center;
+  margin:0 auto;
+  height:186rpx;
+}
+.head text{
+  font-size:36rpx;
+  color:#303030;
+  display:block;
+  margin-top:40rpx;
+  text-align:center;
+}
+.menu{
+  display:flex;
+  justify-content:space-around;
+  padding:30rpx;
+  width:100%;
+  box-sizing:border-box;
+}
+.menu .list{
+  flex:1;
+  border-radius:14rpx;
+  margin-right:20rpx;
+  text-align:center;
+  border:1px solid #f2f2f2;
+  padding:20rpx 0;
+}
+.menu .list:last-child{
+  margin-right:0;
+}
+.menu .list image{
+  width:80rpx;
+  height:80rpx;
+  display:block;
+  text-align:center;
+  margin:auto;
 
+}
+.menu .list text{
+  display:block;
+  margin-top:20rpx;
+  font-size:28rpx;
+  color:#303030;
+}
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
@@ -17,5 +66,5 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 60px;
 }

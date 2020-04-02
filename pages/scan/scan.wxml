@@ -1,4 +1,4 @@
 <view class="scan">
-    <image src="../../image/timg.jpg"></image>
+    <image src="../../image/timg.jpg" bindtap="getScancode"></image>
     <text>点击图片扫码</text>
 </view>

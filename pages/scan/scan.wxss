@@ -1,10 +1,10 @@
 .scan{
-    padding:40rpx 30rpx;
+    padding:160rpx 30rpx;
 
 }
 .scan image{
-    width:340rpx;
-    height:300rpx;
+    width:70%;
+    height:400rpx;
     display:block;
     margin:auto;
 

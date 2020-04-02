@@ -19,6 +19,10 @@ Page({
        this.setData({
          code: scan_url
        })
+      } else {
+        wx.navigateTo({
+          url: "/pages/list/list"
+        })
       }
       if(options.q != undefined){
         var scan_url = decodeURIComponent(options.q).split('=')[1];

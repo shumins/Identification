@@ -17,7 +17,6 @@
 }
 .head text{
   font-size:36rpx;
-  color:#303030;
   display:block;
   margin-top:40rpx;
   text-align:center;
@@ -52,7 +51,6 @@
   display:block;
   margin-top:20rpx;
   font-size:28rpx;
-  color:#303030;
 }
 .userinfo-avatar {
   width: 128rpx;

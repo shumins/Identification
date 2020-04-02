@@ -32,9 +32,21 @@ Page({
     //     code: options.gcode
     //   })
     // }
-
-   
-
+  },
+  handleTabClick(e){
+    let { type } = e.currentTarget.dataset;
+    switch(type){
+      case "SCAN":
+        wx.navigateTo({
+            url: '/pages/scan/scan'
+        })
+        break;
+      case "LIST":
+        wx.navigateTo({
+          url: "/pages/list/list"
+        })
+        break;
+    }
   }
 
 })
